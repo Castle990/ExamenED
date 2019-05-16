@@ -10,7 +10,7 @@ import org.junit.Test;
 public class DNItest {
 
 	@Test
-	public void TestLetraBN()  {
+	public void TestLetraBNn()  {
 		int n = 43473749;
 		String resultado = (String) DNI.GenerarLetra(n);
 		String esperado= "T";
